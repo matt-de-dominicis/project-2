@@ -1,4 +1,4 @@
 FROM python:3
-ADD my_script.py /
+ADD matthew.py /
 RUN pip install pystrich
-CMD [ "python", "./my_script.py" ]
+CMD [ "python", "./matthew.py" ]
